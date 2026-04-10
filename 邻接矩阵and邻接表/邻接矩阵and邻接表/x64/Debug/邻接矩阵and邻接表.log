@@ -1,0 +1,12 @@
+﻿  邻接表练习.c
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(26,10): warning C4047: “=”:“Node *”与“LinkNode *”的间接级别不同
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(27,17): warning C4047: “=”:“LinkNode *”与“Node *”的间接级别不同
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(28,2): warning C4047: “return”:“LinkNode”与“LinkNode *”的间接级别不同
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(42,18): warning C4047: “=”:“LinkNode *”与“LinkNode”的间接级别不同
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(43,18): warning C4047: “=”:“LinkNode *”与“LinkNode”的间接级别不同
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(31,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(33,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(39,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(47,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\邻接矩阵and邻接表\邻接矩阵and邻接表\邻接表练习.c(50,8): warning C4047: “初始化”:“Node *”与“LinkNode *”的间接级别不同
+  邻接矩阵and邻接表.vcxproj -> C:\Users\lenovo\source\repos\邻接矩阵and邻接表\x64\Debug\邻接矩阵and邻接表.exe

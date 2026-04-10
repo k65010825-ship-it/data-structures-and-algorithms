@@ -1,0 +1,3 @@
+﻿  练习.c
+C:\Users\lenovo\source\repos\顺序栈\顺序栈\练习.c(84,1): warning C4715: “Get”: 不是所有的控件路径都返回值
+  顺序栈.vcxproj -> C:\Users\lenovo\source\repos\顺序栈\x64\Debug\顺序栈.exe

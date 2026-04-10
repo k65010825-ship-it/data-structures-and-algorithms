@@ -1,0 +1,6 @@
+﻿  练习.c
+C:\Users\lenovo\source\repos\树的孩子表示法\树的孩子表示法\练习.c(151,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\树的孩子表示法\树的孩子表示法\练习.c(153,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\树的孩子表示法\树的孩子表示法\练习.c(156,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\树的孩子表示法\树的孩子表示法\练习.c(159,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  树的孩子表示法.vcxproj -> C:\Users\lenovo\source\repos\树的孩子表示法\x64\Debug\树的孩子表示法.exe

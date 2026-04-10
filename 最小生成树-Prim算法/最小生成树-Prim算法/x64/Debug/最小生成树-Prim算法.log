@@ -1,0 +1,6 @@
+﻿  Prim算法代码.c
+  练习.c
+  正在生成代码...
+C:\Users\lenovo\Downloads\最小生成树算法代码\最小生成树算法代码\Prim算法代码.c(53,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Downloads\最小生成树算法代码\最小生成树算法代码\Prim算法代码.c(67,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  最小生成树-Prim算法.vcxproj -> C:\Users\lenovo\source\repos\最小生成树-Prim算法\x64\Debug\最小生成树-Prim算法.exe

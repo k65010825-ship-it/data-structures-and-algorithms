@@ -1,0 +1,5 @@
+﻿  练习.c
+C:\Users\lenovo\source\repos\二叉排序树\二叉排序树\练习.c(165,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉排序树\二叉排序树\练习.c(169,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉排序树\二叉排序树\练习.c(174,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  二叉排序树.vcxproj -> C:\Users\lenovo\source\repos\二叉排序树\x64\Debug\二叉排序树.exe

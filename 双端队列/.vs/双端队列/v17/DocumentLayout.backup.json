@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\source\\repos\\\u53CC\u7AEF\u961F\u5217\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{678A03D0-6CB1-4A2D-937E-F72E4D4FEE7A}|\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217.vcxproj|C:\\Users\\lenovo\\source\\repos\\\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{678A03D0-6CB1-4A2D-937E-F72E4D4FEE7A}|\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217.vcxproj|solutionrelative:\u53CC\u7AEF\u961F\u5217\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678A03D0-6CB1-4A2D-937E-F72E4D4FEE7A}|\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217.vcxproj|C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u94FE\u5F0F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678A03D0-6CB1-4A2D-937E-F72E4D4FEE7A}|\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217.vcxproj|C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u94FE\u5F0F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u94FE\u5F0F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u94FE\u5F0F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u94FE\u5F0F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u94FE\u5F0F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-25T13:48:38.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c",
+              "DocumentMoniker": "C:\\Users\\lenovo\\source\\repos\\\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c",
+              "RelativeDocumentMoniker": "\u53CC\u7AEF\u961F\u5217\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c",
+              "ToolTip": "C:\\Users\\lenovo\\source\\repos\\\u53CC\u7AEF\u961F\u5217\\\u53CC\u7AEF\u961F\u5217\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c",
+              "RelativeToolTip": "\u53CC\u7AEF\u961F\u5217\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u7EC3\u4E60.c",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-25T13:50:43.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\\u6570\u636E\u7ED3\u6784\u76F4\u64AD\u4EE3\u7801\\\u987A\u5E8F\u53CC\u7AEF\u961F\u5217\u4EE3\u7801.c",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-25T13:48:40.963Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿  练习.c
+C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(143,10): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+      C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(143,10):
+      占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+      C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(143,10):
+      缺失的可变参数 1 为格式字符串“%c”所需
+  
+C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(128,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(130,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(133,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\树的长子兄弟表示法\树的长子兄弟表示法\练习.c(136,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  树的长子兄弟表示法.vcxproj -> C:\Users\lenovo\source\repos\树的长子兄弟表示法\x64\Debug\树的长子兄弟表示法.exe

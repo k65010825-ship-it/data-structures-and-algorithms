@@ -1,0 +1,7 @@
+﻿  DFS.c
+  练习.c
+C:\Users\lenovo\source\repos\图的深度优先遍历(DFS)\图的深度优先遍历(DFS)\练习.c(29,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\图的深度优先遍历(DFS)\图的深度优先遍历(DFS)\练习.c(31,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\图的深度优先遍历(DFS)\图的深度优先遍历(DFS)\练习.c(35,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  图的深度优先遍历(DFS).vcxproj -> C:\Users\lenovo\source\repos\图的深度优先遍历(DFS)\x64\Debug\图的深度优先遍历(DFS).exe

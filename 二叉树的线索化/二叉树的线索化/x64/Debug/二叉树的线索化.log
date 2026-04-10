@@ -1,0 +1,8 @@
+﻿  二叉树的中序线索化代码.c
+  练习.c
+C:\Users\lenovo\source\repos\二叉树的线索化\二叉树的线索化\练习.c(67,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉树的线索化\二叉树的线索化\练习.c(70,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉树的线索化\二叉树的线索化\练习.c(73,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉树的线索化\二叉树的线索化\练习.c(77,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  二叉树的线索化.vcxproj -> C:\Users\lenovo\source\repos\二叉树的线索化\x64\Debug\二叉树的线索化.exe

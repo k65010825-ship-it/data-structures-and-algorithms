@@ -1,0 +1,7 @@
+﻿  层次(广度优先)遍历练习(非递归).c
+  广度优先遍历_递归.c
+C:\Users\lenovo\source\repos\二叉树的遍历\二叉树的遍历\广度优先遍历_递归.c(60,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉树的遍历\二叉树的遍历\广度优先遍历_递归.c(62,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\source\repos\二叉树的遍历\二叉树的遍历\广度优先遍历_递归.c(66,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  二叉树的遍历.vcxproj -> C:\Users\lenovo\source\repos\二叉树的遍历\x64\Debug\二叉树的遍历.exe

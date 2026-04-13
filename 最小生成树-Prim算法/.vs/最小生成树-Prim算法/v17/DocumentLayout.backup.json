@@ -17,11 +17,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -31,18 +35,10 @@
               "RelativeDocumentMoniker": "\u6700\u5C0F\u751F\u6210\u6811-Prim\u7B97\u6CD5\\\u7EC3\u4E60.c",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\\u6570\u636E\u7ED3\u6784\u4E0E\u7B97\u6CD5\u7EC3\u4E60\\\u6700\u5C0F\u751F\u6210\u6811-Prim\u7B97\u6CD5\\\u6700\u5C0F\u751F\u6210\u6811-Prim\u7B97\u6CD5\\\u7EC3\u4E60.c",
               "RelativeToolTip": "\u6700\u5C0F\u751F\u6210\u6811-Prim\u7B97\u6CD5\\\u7EC3\u4E60.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-09T13:32:07.968Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",

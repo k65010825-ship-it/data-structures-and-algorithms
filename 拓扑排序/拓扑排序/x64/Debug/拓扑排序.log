@@ -1,0 +1,7 @@
+﻿  TopoSort.c
+C:\Users\lenovo\Downloads\拓扑排序代码\拓扑排序代码\TopoSort.c(133,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Downloads\拓扑排序代码\拓扑排序代码\TopoSort.c(136,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Downloads\拓扑排序代码\拓扑排序代码\TopoSort.c(143,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  练习.c
+  正在生成代码...
+  拓扑排序.vcxproj -> C:\Users\lenovo\Desktop\数据结构与算法练习\拓扑排序\x64\Debug\拓扑排序.exe

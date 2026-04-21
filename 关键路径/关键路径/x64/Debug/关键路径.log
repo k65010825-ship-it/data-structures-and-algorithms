@@ -1,0 +1,5 @@
+﻿  练习.c
+C:\Users\lenovo\Desktop\数据结构与算法练习\关键路径\关键路径\练习.c(121,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Desktop\数据结构与算法练习\关键路径\关键路径\练习.c(123,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Desktop\数据结构与算法练习\关键路径\关键路径\练习.c(129,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  关键路径.vcxproj -> C:\Users\lenovo\Desktop\数据结构与算法练习\关键路径\x64\Debug\关键路径.exe

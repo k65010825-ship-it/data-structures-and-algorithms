@@ -1,49 +1,49 @@
-//#include<stdio.h>
-//#include<stdlib.h>
-//#define maxx 10
-//typedef struct {
-//	int* data;
-//	int top;
-//}Stack;
-//Stack InitStack() {
-//	Stack s;
-//	s.data = (int*)malloc(sizeof(int) * maxx);
-//	s.top = 0;
-//	return s;
-//}
-//void Push(Stack* s, int k) {
-//	if (s->top == maxx) {
-//		printf("Õ»ÒÑÂú£¬ÎÞ·¨ÈëÕ»\n");
-//	}
-//	else {
-//		s->data[s->top] = k;
-//		s->top++;
-//	}
-//}
-//void Pop(Stack* s) {
-//	if (s->top == 0) {
-//		printf("Õ»ÒÑ¿Õ£¬ÎÞ·¨³öÕ»\n");
-//	}
-//	else {
-//		s->top--;
-//	}
-//}
-//int Get(Stack s) {
-//	if (s.top == 0) {
-//		printf("Õ»¿Õ\n");
-//		return -1;
-//	}
-//	return s.data[s.top - 1];
-//}
-//int main()
-//{
-//	Stack s = InitStack();
-//	Push(&s, 1);
-//	Push(&s, 2);
-//	Push(&s, 3);
-//	Pop(&s);
-//	Pop(&s);
-//	Pop(&s);
-//	printf("%d\n", Get(s));
-//	return 0;
-//}
+#include<stdio.h>
+#include<stdlib.h>
+#define maxx 10
+typedef struct {
+	int* data;
+	int top;
+}Stack;
+Stack InitStack() {
+	Stack s;
+	s.data = (int*)malloc(sizeof(int) * maxx);
+	s.top = 0;
+	return s;
+}
+void Push(Stack* s, int k) {
+	if (s->top == maxx) {
+		printf("æ ˆå·²æ»¡ï¼Œæ— æ³•å…¥æ ˆ\n");
+	}
+	else {
+		s->data[s->top] = k;
+		s->top++;
+	}
+}
+void Pop(Stack* s) {
+	if (s->top == 0) {
+		printf("æ ˆå·²ç©ºï¼Œæ— æ³•å‡ºæ ˆ\n");
+	}
+	else {
+		s->top--;
+	}
+}
+int Get(Stack s) {
+	if (s.top == 0) {
+		printf("æ ˆç©º\n");
+		return -1;
+	}
+	return s.data[s.top - 1];
+}
+int main()
+{
+	Stack s = InitStack();
+	Push(&s, 1);
+	Push(&s, 2);
+	Push(&s, 3);
+	Pop(&s);
+	Pop(&s);
+	Pop(&s);
+	printf("%d\n", Get(s));
+	return 0;
+}

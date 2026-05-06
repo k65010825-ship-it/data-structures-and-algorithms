@@ -1,87 +1,87 @@
-//#include<stdio.h>
-//#include<stdlib.h>
-//#define maxx 20
-//typedef struct ArrayList {
-//	int* data;
-//	int s;//±í³¤
-//}Array;
-//Array initarray() {
-//	Array a;
-//	a.data = (int*)malloc(sizeof(int) * maxx);
-//	a.s = 0;
-//	return a;
-//}
-////Ä©Î²Ìí¼ÓÒ»¸öÊı¾İk
-//void add(Array*a, int k) {
-//	if (a->s == maxx) {
-//		printf("Ë³Ğò±íÒÑÂú£¬ÎŞ·¨Ìí¼Ó");
-//		return;
-//	}
-//	a->data[a->s] = k;
-//	a->s++;
-//}
-////ÔÚÏÂ±êiÎ»ÖÃ²åÈëÊı¾İk
-//void insert(Array* a, int i,int k) {
-//	if (a->s == maxx) {
-//		printf("Ë³Ğò±íÒÑÂú£¬ÎŞ·¨²åÈë");
-//		return;
-//	}
-//	for (int j = a->s - 1; j >= i; j--) {
-//		a->data[j + 1] = a->data[j];
-//	}
-//	a->data[i] = k;
-//	a->s++;
-//}
-////²éÕÒÊı¾İk
-//int find(Array* a, int k) {
-//	for (int i = 0; i < a->s; i++) {
-//		if (a->data[i] == k) {
-//			return i;
-//		}
-//	}
-//	return -1;
-//}
-////É¾³ıÊı¾İk
-//void delete(Array* a, int k) {
-//	int i = find(&a, k);
-//	if (i == -1) {
-//		printf("Êı¾İ%d²»´æÔÚ£¬ÎŞ·¨É¾³ı", k);
-//		return;
-//	}
-//	for (int j = i + 1; j < a->s; j++) {
-//		a->data[j - 1] = a->data[j];
-//	}
-//	a->s--;
-//}
-////´òÓ¡Ë³Ğò±í
-//void show(Array a) {
-//	if (a.s == 0) {
-//		printf("¿Õ±í");
-//		return;
-//	}
-//	for (int i = 0; i < a.s; i++) {
-//		printf("%d ", a.data[i]);
-//	}
-//	printf("\n");
-//}
-//int main()
-//{
-//	    Array a;//ÉùÃ÷Ò»¸öË³Ğò±í£»
-//		a=initarray();
-//		add(&a,1);
-//		add(&a,8);
-//		add(&a,2);
-//		add(&a,7);
-//		add(&a,0);
-//		show(a);
-//		insert(&a,1,3);
-//		insert(&a,3,5);
-//		show(a);
-//		int i=find(&a,7);//ÀíÂÛÉÏ¿ÉÒÔÓÃÖµ´«µİ(²»ĞèÒª¸Ä±äa)µ«ÊÇInsertº¯ÊıÒªÓÃµ½Findº¯Êı,¹ÊĞè±£³ÖÊı¾İÀàĞÍÒ»ÖÂ
-//		if(i==-1)printf("7²»´æÔÚ\n");
-//		else
-//		printf("Êı¾İ7µÄÎ»ÖÃÊÇ:%d\n",i);
-//		delete(&a,8);
-//		show(a);
-//		return 0;
-//}
+#include<stdio.h>
+#include<stdlib.h>
+#define maxx 20
+typedef struct ArrayList {
+	int* data;
+	int s;//è¡¨é•¿
+}Array;
+Array initarray() {
+	Array a;
+	a.data = (int*)malloc(sizeof(int) * maxx);
+	a.s = 0;
+	return a;
+}
+//æœ«å°¾æ·»åŠ ä¸€ä¸ªæ•°æ®k
+void add(Array*a, int k) {
+	if (a->s == maxx) {
+		printf("é¡ºåºè¡¨å·²æ»¡ï¼Œæ— æ³•æ·»åŠ ");
+		return;
+	}
+	a->data[a->s] = k;
+	a->s++;
+}
+//åœ¨ä¸‹æ ‡iä½ç½®æ’å…¥æ•°æ®k
+void insert(Array* a, int i,int k) {
+	if (a->s == maxx) {
+		printf("é¡ºåºè¡¨å·²æ»¡ï¼Œæ— æ³•æ’å…¥");
+		return;
+	}
+	for (int j = a->s - 1; j >= i; j--) {
+		a->data[j + 1] = a->data[j];
+	}
+	a->data[i] = k;
+	a->s++;
+}
+//æŸ¥æ‰¾æ•°æ®k
+int find(Array* a, int k) {
+	for (int i = 0; i < a->s; i++) {
+		if (a->data[i] == k) {
+			return i;
+		}
+	}
+	return -1;
+}
+//åˆ é™¤æ•°æ®k
+void delete(Array* a, int k) {
+	int i = find(&a, k);
+	if (i == -1) {
+		printf("æ•°æ®%dä¸å­˜åœ¨ï¼Œæ— æ³•åˆ é™¤", k);
+		return;
+	}
+	for (int j = i + 1; j < a->s; j++) {
+		a->data[j - 1] = a->data[j];
+	}
+	a->s--;
+}
+//æ‰“å°é¡ºåºè¡¨
+void show(Array a) {
+	if (a.s == 0) {
+		printf("ç©ºè¡¨");
+		return;
+	}
+	for (int i = 0; i < a.s; i++) {
+		printf("%d ", a.data[i]);
+	}
+	printf("\n");
+}
+int main()
+{
+	    Array a;//å£°æ˜ä¸€ä¸ªé¡ºåºè¡¨ï¼›
+		a=initarray();
+		add(&a,1);
+		add(&a,8);
+		add(&a,2);
+		add(&a,7);
+		add(&a,0);
+		show(a);
+		insert(&a,1,3);
+		insert(&a,3,5);
+		show(a);
+		int i=find(&a,7);//ç†è®ºä¸Šå¯ä»¥ç”¨å€¼ä¼ é€’(ä¸éœ€è¦æ”¹å˜a)ä½†æ˜¯Insertå‡½æ•°è¦ç”¨åˆ°Findå‡½æ•°,æ•…éœ€ä¿æŒæ•°æ®ç±»å‹ä¸€è‡´
+		if(i==-1)printf("7ä¸å­˜åœ¨\n");
+		else
+		printf("æ•°æ®7çš„ä½ç½®æ˜¯:%d\n",i);
+		delete(&a,8);
+		show(a);
+		return 0;
+}

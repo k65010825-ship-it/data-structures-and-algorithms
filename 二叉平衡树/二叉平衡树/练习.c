@@ -1,197 +1,3 @@
-//#include<stdio.h>
-//#include<stdlib.h>
-//typedef struct AVLNode {
-//	int data;
-//	int h;
-//	struct AVLNode* l;
-//	struct AVLNode* r;
-//}AVLNode,*AVLTree;
-//int GetHeight(AVLNode* p) {
-//	if (p == NULL)return 0;
-//	return p->h;
-//}
-//void UpdateHeight(AVLNode* p) {
-//	if (p == NULL)return;
-//	int LHeight = GetHeight(p->l);
-//	int RHeight = GetHeight(p->r);
-//	p->h=(LHeight > RHeight) ? LHeight : RHeight + 1;
-//}
-//AVLNode* CreateNode(int x) {
-//	AVLNode* p = (AVLNode*)malloc(sizeof(AVLNode));
-//	p->data = x;
-//	p->h = 1;
-//	p->l = p->r = NULL;
-//	return p;
-//}
-////ÓÒĞı
-//AVLTree LL(AVLTree T) {
-//	AVLNode* t = T->l;
-//	T->l = t->r;
-//	t->r = T;
-//	UpdateHeight(T);
-//	UpdateHeight(t);
-//	return t;
-//}
-////×óĞı
-//AVLTree RR(AVLTree T) {
-//	AVLNode* t = T->r;
-//	T->r = t->l;
-//	t->l = T;
-//	UpdateHeight(T);
-//	UpdateHeight(t);
-//	return t;
-//}
-//AVLTree LR(AVLTree T) {
-//	T->l = RR(T->l);
-//	return LL(T);
-//}
-//AVLTree RL(AVLTree T) {
-//	T->r = LL(T->r);
-//	return RR(T);
-//}
-//AVLTree Insert(AVLTree T, int x) {
-//	if (T == NULL) {
-//		T = CreateNode(x);
-//		return T;
-//	}
-//	else if (x < T->data) {
-//		T->l = Insert(T->l, x);
-//		if (GetHeight(T->l) - GetHeight(T->r) == 2) {
-//			if (x < T->l->data) {
-//				//LL
-//				T = LL(T);
-//			}
-//			else {
-//				//LR
-//				T = LR(T);
-//			}
-//		}
-//	}
-//	else if (x > T->data) {
-//		T->r = Insert(T->r, x);
-//		if (GetHeight(T->r) - GetHeight(T->l) == 2) {
-//			if (x < T->r->data) {
-//				//RL
-//				T = RL(T);
-//			}
-//			else {
-//				//RR
-//				T = RR(T);
-//			}
-//		}
-//	}
-//	UpdateHeight(T);
-//	return T;
-//}
-//AVLTree Delete(AVLTree T,int k)
-//{
-//    if(T==NULL)
-//    {
-//        printf("¸ÃÊı¾İ²»´æÔÚ£¬ÎŞ·¨É¾³ı\n");
-//        return T;
-//    }
-//    else if (k < T->data)
-//    {
-//        T->l = Delete(T->l, k);
-//        if (GetHeight(T->r) - GetHeight(T->l) > 1)
-//        {
-//            AVLNode* right = T->r;
-//            if (GetHeight(right->r) >= GetHeight(right->l))
-//            {//RR
-//                T = RR(T);
-//            }
-//            else
-//            {//RL
-//                T = RL(T);
-//            }
-//        }
-//
-//    }
-//    else if (k > T->data)
-//    {
-//        T->r = Delete(T->r, k);
-//        if (GetHeight(T->l) - GetHeight(T->r) > 1)
-//        {
-//            AVLNode* left = T->l;
-//            if (GetHeight(left->l) >= GetHeight(left->r))
-//            {//LL
-//                T = LL(T);
-//            }
-//            else
-//            {//LR
-//                T = LR(T);
-//            }
-//        }
-//    }
-//    else
-//    {
-//        if(T->l!=NULL&&T->r!=NULL)
-//        {//root¶ÈÎª2
-//            //ÕÒroot¶ÈÇ°Çı
-//            AVLNode* p=T->l;
-//            while(p->r!=NULL)p=p->r;
-//            //p¾ÍÊÇrootµÄÇ°Çı
-//            T->data=p->data;
-//            T->l=Delete(T->l,p->data);
-//            //ÔÚrootµÄ×ó×ÓÊ÷ÖĞÉ¾³ıÁËÒ»¸ö½áµã£¬¿ÉÄÜµ¼ÖÂroot×óÓÒ×ÓÊ÷¸ß¶È²îÀ©´óµ½2£¬root¿ÉÄÜÊ§ºâ
-//            //¿ÉÄÜ³öÏÖRR/RLÊ§ºâ
-//            if(GetHeight(T->r)-GetHeight(T->l)>1)
-//            {
-//                AVLNode* right=T->r;
-//                if(GetHeight(right->r)>= GetHeight(right->l))
-//                {//RR
-//                    T=RR(T); 
-//                }
-//                else
-//                {//RL
-//                    T=RL(T); 
-//                }
-//            }
-//
-//        }
-//        else{
-//            //¶ÈÎª1/0
-//            AVLNode* p=T;//pÖ¸ÏòÒªÉ¾³ıµÄ½áµã
-//            if(T->l!=NULL)T=T->l;
-//            else T=T->r;
-//            free(p);
-//            p=NULL;
-//        }
-//    }
-//    
-//    UpdateHeight(T);
-//    return T;
-//
-//}
-//void InOrder(AVLTree T) {
-//	if (T == NULL)return;
-//	InOrder(T->l);
-//	//¼ÆËãÆ½ºâÒò×Ó
-//	int p = GetHeight(T->l) - GetHeight(T->r);
-//	printf("%d %d\n", T->data, p);
-//	InOrder(T->r);
-//}
-//int main() {
-//    AVLTree T = NULL;
-//    // ²åÈë²âÊÔÊı¾İ
-//    T = Insert(T, 10);
-//    T = Insert(T, 20);
-//    T = Insert(T, 30);
-//    T = Insert(T, 40);
-//    T = Insert(T, 50);
-//
-//    printf("²åÈëºó±éÀú£º\n");
-//
-//    printf("InOrder: "); InOrder(T); printf("\n");
-//
-//    // É¾³ı²âÊÔ
-//    T = Delete(T, 30);
-//    printf("\nÉ¾³ı30ºó±éÀú£º\n");
-//
-//    printf("InOrder: "); InOrder(T); printf("\n");
-//
-//    return 0;
-//}
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct AVLNode {
@@ -210,7 +16,7 @@ void UpdataHeight(AVLNode* p) {
 	int RHeight = GetHeight(p->r);
 	return ((LHeight > RHeight) ? LHeight : RHeight) + 1;
 }
-//ÓÒĞı
+//å³æ—‹
 AVLTree LL(AVLNode* p) {
 	AVLNode* temp = p->l;
 	p->l = temp->r;
@@ -219,7 +25,7 @@ AVLTree LL(AVLNode* p) {
 	UpdataHeight(temp);
 	return temp;
 }
-//×óĞı
+//å·¦æ—‹
 AVLTree RR(AVLNode* p) {
 	AVLNode* temp = p->r;
 	p->r = temp->l;
@@ -275,7 +81,7 @@ AVLTree Insert(AVLTree T, int x) {
 }
 AVLTree Delete(AVLTree T, int x) {
 	if (T == NULL) {
-		printf("¿ÕÊ÷,ÎŞ·¨É¾³ı\n");
+		printf("ç©ºæ ‘,æ— æ³•åˆ é™¤\n");
 		return T;
 	}
 	else if (x < T->data) {
@@ -303,7 +109,7 @@ AVLTree Delete(AVLTree T, int x) {
 	else {
 		//x==T->data
 		if (T->l != NULL && T->r != NULL) {
-			//ÕÒTµÄÇ°Çı
+			//æ‰¾Tçš„å‰é©±
 			AVLNode* p = T->l;
 			while (p->r != NULL) {
 				p = p->r;
@@ -331,20 +137,20 @@ void InOrder(AVLTree T) {
 }
 int main() {
 	AVLTree T = NULL;
-    // ²åÈë²âÊÔÊı¾İ
+    // æ’å…¥æµ‹è¯•æ•°æ®
     T = Insert(T, 10);
     T = Insert(T, 20);
     T = Insert(T, 30);
     T = Insert(T, 40);
     T = Insert(T, 50);
 
-    printf("²åÈëºó±éÀú£º\n");
+    printf("æ’å…¥åéå†ï¼š\n");
 
     printf("InOrder: "); InOrder(T); printf("\n");
 
-    // É¾³ı²âÊÔ
+    // åˆ é™¤æµ‹è¯•
     T = Delete(T, 30);
-    printf("\nÉ¾³ı30ºó±éÀú£º\n");
+    printf("\nåˆ é™¤30åéå†ï¼š\n");
 
     printf("InOrder: "); InOrder(T); printf("\n");
 

@@ -7,7 +7,7 @@ typedef struct BNode {
 	struct BNode* parent;
 	struct BNode** child;
 	int keyNum; //当前关键字数
-}BNode,*BTree;
+}BNode, * BTree;
 typedef struct Result {
 	BNode* node;
 	int index; //Result->node->key[index]就是要找的关键字
@@ -112,7 +112,7 @@ BTree Insert(BTree T, int k) {
 		return T;
 	}
 	Result res = Find(T, k);
-	if(res.found) {
+	if (res.found) {
 		return T; //关键字已存在,不插入
 	}
 	BNode* p = res.node; //k要插入的结点p一定是内部终端节点
@@ -184,7 +184,7 @@ BTree Delete(BTree T, int k) {
 		}
 		p->key[i] = minNode->key[0];
 		//转化为删除右子树的最小关键字
-		p = minNode; 
+		p = minNode;
 		i = 0;
 	}
 	else {
@@ -230,7 +230,7 @@ BTree Delete(BTree T, int k) {
 			p->key[0] = parent->key[ci - 1];
 			//lbro->key[lbro->keyNum - 1]上移到parent->key[ci-1]
 			parent->key[ci - 1] = lbro->key[lbro->keyNum - 1];
-			
+
 			p->child[0] = lbro->child[lbro->keyNum];
 			if (p->child[0] != NULL) {
 				p->child[0]->parent = p;
@@ -286,7 +286,7 @@ BTree Delete(BTree T, int k) {
 	}
 	return T;
 }
-void Printt(BTree T,int level) {
+void Printt(BTree T, int level) {
 	if (T == NULL) {
 		return;
 	}
@@ -299,7 +299,7 @@ void Printt(BTree T,int level) {
 	}
 	printf("\n");
 	for (int i = 0; i <= T->keyNum; i++) {
-		Printt(T->child[i],level);
+		Printt(T->child[i], level);
 	}
 }
 int main() {

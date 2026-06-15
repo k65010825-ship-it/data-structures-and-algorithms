@@ -1,0 +1,6 @@
+﻿  KMP.c
+C:\Users\lenovo\Desktop\数据结构与算法练习\KMP算法\KMP算法\KMP.c(6,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Desktop\数据结构与算法练习\KMP算法\KMP算法\KMP.c(8,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\lenovo\Desktop\数据结构与算法练习\KMP算法\KMP算法\KMP.c(9,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\lenovo\Desktop\数据结构与算法练习\KMP算法\KMP算法\KMP.c(10,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  KMP算法.vcxproj -> C:\Users\lenovo\Desktop\数据结构与算法练习\KMP算法\x64\Debug\KMP算法.exe
